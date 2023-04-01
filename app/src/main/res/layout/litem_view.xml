@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_gravity="center"
+    android:background="@drawable/item_bg"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/user"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/text_bg"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:ellipsize="end"
+        android:textColor="#2196F3"/>
+
+    <TextView
+        android:id="@+id/itemEmpID"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/emp_id"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/text_bg"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/itemEmpName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/text_bg"
+        android:text="@string/emp_name"
+        android:layout_marginBottom="1dp"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/itemEmpEmail"
+        android:text="@string/emp_email"
+        android:layout_marginBottom="1dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/text_bg"
+        android:padding="10dp"
+        android:ellipsize="end"
+        android:textSize="15sp"
+        android:maxLines="1"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/itemEmpPhone"
+        android:text="@string/emp_phone"
+        android:layout_marginBottom="1dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:background="@drawable/text_bg"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:ellipsize="end"
+        android:textSize="15sp"
+        android:maxLines="1"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/itemEmpLocation"
+        android:text="@string/emp_location"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/text_bg"
+        android:layout_height="100dp"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:ellipsize="end"
+        android:maxLines="4"
+        android:textColor="@color/black"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#2196F3"/>
+</LinearLayout>

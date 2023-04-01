@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Employee Tracker</string>
+    <string name="enter_user_name">Enter User Name</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="user_login">User Login</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="login_btn">Login</string>
+    <string name="create_user">Create User</string>
+    <string name="users_track">Users Track</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_phone">Enter Phone</string>
+    <string name="enter_empId">Enter Employee ID</string>
+    <string name="turn_on">Tap to turn on the location</string>
+    <string name="emp_id">Employee ID</string>
+    <string name="emp_name">Employee Name</string>
+    <string name="emp_email">Employee Email</string>
+    <string name="emp_phone">Employee Phone</string>
+    <string name="admin">Admin </string>
+    <string name="user">User</string>
+    <string name="logout">Logout</string>
+    <string name="emp_location">Employee Location</string>
+</resources>
